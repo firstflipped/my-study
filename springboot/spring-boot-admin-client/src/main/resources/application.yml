@@ -14,4 +14,5 @@ management:
         include: '*'
 logging:
   file:
-    name: admin-client.log
+    name: /Users/flipped/Workspace/Java/study/my-study/springboot/spring-boot-admin-client/logs/${spring.application.name}.log
+
